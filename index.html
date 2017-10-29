@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Vintage Hotel Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<header>
+	<div class="desactivator" id="desactivator"></div>
+		<figure class="logo">
+			<img src="images/logo.png" alt="Logo Company">
+			<figcaption>Vintage Hotel Restaurant</figcaption>
+		</figure>
+		<a href="#" class="menu-btn icon-menu" id="btnMenu"></a>
+		<nav class="menu" id="menu">
+			<ul>
+				<li>
+					<a href="#" class="active menu-item icon-home">Home</a>
+				</li>
+				<li>
+					<a href="#rooms" class="menu-item icon-tick">Rooms</a>
+				</li>
+				<li>
+					<a href="#galery" class="menu-item icon-camera">Gallery</a>
+				</li>
+				<li>
+					<a href="#contact" class="menu-item icon-phone">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="slide-section">
+		<div class="slide">
+			<div class="slide-item item-1">
+				<div class="info">
+					<h3 class="item-title">Our speciality!</h3>
+					<p>This is our best dish!</p>
+					<a href="" class="btn btn-slider">order now!</a>
+				</div>
+				<figure>
+					<img src="images/dish1.png" alt="Rice with chicken">
+				</figure>
+			</div>
+			<div class="slide-item item-2">
+				<div class="info">
+					<h3 class="item-title">Enjoy the best food</h3>
+					<p>We cook with passion!</p>
+					<a href="" class="btn btn-slider">view menu</a>
+				</div>
+				<figure>
+					<img src="images/dish2.png" alt="Restaurant dishes">
+				</figure>
+			</div>
+			<div class="slide-item item-3">
+				<div class="info">
+					<h3 class="item-title">Don't miss the dessert</h3>
+					<p>Can be the best part!</p>
+					<a href="" class="btn btn-slider">see all</a>
+				</div>
+				<figure>
+					<img src="images/dessert.png" alt="Chocolate dessert">
+				</figure>
+			</div>
+		</div>
+	</section>
+	<section id="rooms" class="rooms">
+		<h2>Rooms</h2>
+		<article class="room">
+			<figure>
+				<img src="images/room2.jpg" class="room1" alt="Black and White Room">
+			</figure>
+			<div class="info-room">
+				<h3>Name of the room</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</article>
+		<article class="room r2">
+			<div class="info-room">
+				<h3>Name of the room</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<figure>
+				<img src="images/room1.jpg" class="room2" alt="Black and White Room">
+			</figure>
+		</article>
+	</section>
+	<section class="galery-section" id="galery">
+		<h2>Gallery</h2>
+		<div class="gallery-container">
+			<div class="image-container">
+				<figure>
+					<div class="image-div">
+						<img src="images/gallery1.jpeg">
+					</div>
+					<figcaption>Image description </figcaption>
+				</figure>
+			</div>
+			<div class="image-container">
+				<figure>
+					<div class="image-div">
+						<img src="images/gallery2.jpg">
+					</div>
+					<figcaption>Image description </figcaption>
+				</figure>
+			</div>
+			<div class="image-container">
+				<figure>
+					<div class="image-div">
+						<img src="images/gallery3.jpg">
+					</div>
+					<figcaption>Image description </figcaption>
+				</figure>
+			</div>
+			<div class="image-container">
+				<figure>
+					<div class="image-div">
+						<img src="images/gallery4.jpg">
+					</div>
+					<figcaption>Image description </figcaption>
+				</figure>
+			</div>
+			<div class="image-container">
+				<figure>
+					<div class="image-div">
+						<img src="images/gallery5.jpg">
+					</div>
+					<figcaption>Image description </figcaption>
+				</figure>
+			</div>
+			<div class="image-container">
+				<figure>
+					<div class="image-div">
+						<img src="images/gallery6.jpg">
+					</div>
+					<figcaption>Image description </figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+	<footer id="contact">
+		<div class="cfooter">
+			<div class="contact">
+				<h2>Contact Us</h2>
+				<a href="tel:+573213299930"><strong>Teléfono:</strong> <span>3213299930</span></a>
+				<a href="mailto:info@vintagehotel.com"><strong>Email:</strong> <span>info@vintagehotel.com</span></a>
+			</div>
+			<form class="form" method="post">
+				<div class="col1">
+					<div class="personal-data">
+						<label for="nombre">Name</label>
+						<input type="text" required placeholder="Name..." id="name" name="Name">
+						<label for="email">E-mail</label>
+						<input type="email" required id="email" placeholder="ejem@mail.com" name="Email">
+					</div>
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" checked id="mujer" name="sexo" value="Mujer">Female
+						</label>
+						<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" value="Hombre">Male
+						</label>
+					</div>
+					<div class="intereses">
+						<label for="reservation">
+							<input type="checkbox" id="reservation" name="intereses" value="Reservation">Reservation
+						</label>
+						<label for="Complaints">
+							<input type="checkbox" id="Complaints" name="intereses" value="Complaints">Complaints
+						</label>
+						<label for="comments">
+							<input type="checkbox" id="comments" name="intereses" value="Comments">Comments
+						</label>
+						<label for="other">
+							<input type="checkbox" id="other" name="intereses" value="Other">Other
+						</label>
+					</div>
+				</div>
+				<div class="col2">
+					<label for="issue">Comments</label>
+					<textarea name="Comments" id="issue" cols="30" rows="7"></textarea>
+					<input type="submit" class="btn" value="send">
+				</div>
+			</form>	
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/code.js"></script>
+</body>
+</html>
